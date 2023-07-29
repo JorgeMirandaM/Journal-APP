@@ -1,5 +1,6 @@
 {
   "name": "journal-app",
+  "homepage": "https://JorgeMirandaM.github.io/Journal-APP",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -34,7 +35,9 @@
     "test": "jest --watchAll",
     "eject": "react-scripts eject",
     "pro": "env-cmd -e PRO npm run start",
-    "testing":"env-cmd -e TEST npm run start"
+    "testing": "env-cmd -e TEST npm run start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -57,6 +60,7 @@
   "devDependencies": {
     "cloudinary": "^1.39.0",
     "dotenv": "^16.3.1",
+    "gh-pages": "^5.0.0",
     "jest": "^29.3.1",
     "jest-environment-jsdom": "^29.3.1"
   }
