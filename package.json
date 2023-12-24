@@ -1,6 +1,6 @@
 {
   "name": "journal-app",
-  "homepage": "https://JorgeMirandaM.github.io/Journal-APP",
+  "homepage": "https://JorgeMirandaM.github.io/React_Journal-APP",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,8 +24,8 @@
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.1",
     "react-router-dom": "^6.14.1",
-    "react-scripts": "5.0.1",
-    "sweetalert2": "^11.7.20",
+    "react-scripts": "^5.0.1",
+    "sweetalert2": "^11.6.13",
     "web-vitals": "^2.1.4",
     "whatwg-fetch": "^3.6.17"
   },
